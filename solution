@@ -7,7 +7,7 @@ public static int[] multiplyAndDivide(int a, int b) {
     }
    
     @Test
-    public void multiplyAndDivide() {
+    public void multiplyAndDivideTest() {
         int a  = 5;
         int b = 2;
         var result = multipleAndDivide(a, b);
