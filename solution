@@ -1,0 +1,18 @@
+public static int[] multiplyAndDivide(int a, int b) {
+        int[] result = new int[3];
+        result[0] = a * b;
+        result[1] = a / b;
+        result[2] = a % b;
+        return result;
+    }
+   
+    @Test
+    public void multiplyAndDivide() {
+        int a  = 5;
+        int b = 2;
+        var result = multipleAndDivide(a, b);
+       
+        assertEquals(10, result[0]);
+        assertEquals(2, result[1]);
+        assertEquals(1, result[2]);
+    }
